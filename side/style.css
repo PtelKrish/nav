@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
+
+:root {
+    --color-bkack: rgba(0, 0, 0, 0.765);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    list-style: none;
+    text-decoration: none;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Manrope', sans-serif;
+    /* font-family: 'Prompt', sans-serif; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #e4e9f7;
+}
+
+.main-Navbar {
+    /* display: flex; */
+    position: absolute;
+    height: 100%;
+    width: 250px;
+    padding: 1rem 1rem;
+
+    border: 2px solid var(--color-bkack);
+    background-color: white;
+
+}
+
+.first-navchild-header {
+    display: flex;
+    align-items: center;
+}
+
+/* .header-pf-logo-div  */
+.first-navchild-header img {
+    width: 46px;
+    border-radius: 4px;
+    margin: 2px 10px 2px 10px;
+}
+
+.header-pf-text-div {
+    display: flex;
+    word-wrap: break-word;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    /* margin-left:10px ; */
+    transition: all 0.1s ease-in-out;
+    line-height: 18px;
+}
+
+
+.header-pf-text-name {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--color-bkack);
+}
+
+.header-pf-text-work {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000000ab;
+}
+
+
+
+
+/* second navbar chiled main navbar  */
+.navLists {
+    margin-top: 20px;
+}
+
+.second-navchild-main-navdiv {
+    margin-top: 50px;
+}
+
+.NavLists-Anchorteg {
+    display: flex;
+    align-items: center;
+}
+.NavLists-Anchorteg:hover{
+    background-color: aqua;
+}
+
+.nav-Anchorteg-icon-div {
+    display: flex;
+}
+
+.nav-Anchorteg-icon-div img {
+    width: 25px;
+    margin: 15px 15px 15px 15px;
+}
+.navLists img{
+    width: 25px;
+    margin: 15px 15px 15px 15px;
+    
+}
+
+.nav-Anchorteg-Maintext {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    transition: all 0.1s ease-in-out;
+
+}
+
+
+
+
+
+/* smole navbar css */
+.tog {
+    width: 90px;
+}
+
+.tog .header-pf-text-div {
+    /* visibility: hidden; */
+    opacity: 0;
+    /* display: none; */
+}
+
+.sliderButton {
+    margin-left: 300px;
+}
+
+.tog .nav-Anchorteg-text-div {
+    opacity: 0;
+    /* display: none; */
+}
